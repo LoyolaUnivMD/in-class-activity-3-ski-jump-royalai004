@@ -35,7 +35,7 @@ class HelloWorld {
             System.out.println("Sorry, you didn't go very far.");
         }
         //Outputs different outcomes based on point result.
-        System.out.print("You had a distance of " + distance + " meters and earned " + points + " points.");
+        System.out.print("You had a distance of " + distance + " meters and earned " + points + " points. ");
         //Outputs distance traveled and points
     }
 }

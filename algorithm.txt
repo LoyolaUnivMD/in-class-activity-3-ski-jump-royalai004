@@ -18,4 +18,4 @@
   a. Output "What happened?"
 11. Otherwise
   a. Output "Sorry, you didn't go very far."
-12. Output "You had a distance of {distance} meters and {points} points."
+12. Output "You had a distance of {distance} meters and {points} points. "
