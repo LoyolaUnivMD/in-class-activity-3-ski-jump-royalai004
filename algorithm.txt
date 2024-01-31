@@ -1,0 +1,21 @@
+1. Introduce user to program: "This program will give you a score and rating for your ski jump"
+2. Prompt for "Speed of jumper at end of ramp (m/s): ", set to speed.
+3. Prompt for "Type of hill [Normal/Large]: "
+4. If hill is "normal"
+  a. Set height to 46
+  b. Set pointsPerMeter to 2
+  c. Set par to 90
+5. Otherwise
+  a. Set height to 70
+  b. Set pointsPerMeter to 1.8
+  c. Set par to 120
+6. Set time to sqrt((2 * height)/9.8)
+7. Set distance to (speed * time)
+8. Set points to (60 + (distance - par) * pointsPerMeter)
+9. If points >= 61
+  a. Output "Great job for doing better than par!"
+10. Otherwise if points < 10
+  a. Output "What happened?"
+11. Otherwise
+  a. Output "Sorry, you didn't go very far."
+12. Output "You had a distance of {distance} meters and {points} points."
